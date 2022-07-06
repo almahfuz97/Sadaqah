@@ -14,7 +14,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-
 }
 
 h1,
@@ -46,7 +45,6 @@ h1 {
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 }
 
-
 .donate-button {
     background-color: #FF5959;
     color: white;
@@ -59,19 +57,17 @@ h1 {
     gap: 8px;
     font-size: 20px;
     margin-top: 2%;
-
 }
 
 .container {
     /* text-align: center; */
     margin-top: 5%;
-
 }
 
 .h-p-div {
     padding-left: 25%;
     padding-right: 25%;
-    t-align: center;
+    /* text-align: center; */
 }
 
 .h-p-div h2 {
@@ -93,7 +89,6 @@ h1 {
 }
 
 .amount h3 {
-
     padding: 3% 1%;
     font-size: 30px;
     background: #FAFAFA;
@@ -121,7 +116,6 @@ input {
     box-sizing: border-box;
     text-align: center;
     display: flex;
-
 }
 
 input[type=number] {
@@ -130,7 +124,6 @@ input[type=number] {
     opacity: 70%;
     margin-bottom: 2%;
     padding: 1%;
-
 }
 
 .plans-section {
@@ -138,7 +131,6 @@ input[type=number] {
     padding-left: 10%;
     padding-right: 10%;
     justify-content: space-evenly;
-
 }
 
 .plan-div {
@@ -148,15 +140,6 @@ input[type=number] {
     background: rgba(79, 157, 166, 0.1);
 }
 
-/* .fa-solid {
-    padding: 2%;
-    color: red;
-    background-image: url(../icons/blood.svg);
-    height: 20px;
-    width: 20px;
-    display: block;
-
-} */
 .fa-solid {
     font-size: 40px;
     padding-top: 10%;
@@ -193,7 +176,6 @@ input[type=number] {
     margin-top: 15px;
     box-shadow: 5px 5px 10px gray;
     color: #FF5959;
-
 }
 
 .half-width {
@@ -212,13 +194,6 @@ input[type=number] {
     margin-top: 55px;
 
 }
-
-/* #about-us-div {
-    background-image: url(../images/frame58.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-} */
 
 .color-text {
     color: #FF5959;
@@ -243,7 +218,6 @@ input[type=email] {
     border-radius: 5px 0 0 5px;
     border: none;
     background: #d9d9d9;
-
 }
 
 input[type=submit] {
@@ -255,7 +229,6 @@ input[type=submit] {
     border: none;
     background: #FF5959;
     color: #FAFAFA;
-
 }
 
 footer {
@@ -268,14 +241,12 @@ footer {
     gap: 24px;
     padding: 5% 10%;
     margin-top: 7%;
-
 }
 
 footer h3 {
     color: #FF5959;
     font-size: 30px;
 }
-
 
 footer p {
     color: white;
