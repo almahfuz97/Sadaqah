@@ -175,6 +175,55 @@ input[type=number] {
     background: #FFF4D6;
 }
 
+#about-us-div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about-us-intro-id {
+    padding: 2%;
+}
+
+.more-us {
+    text-decoration: none;
+    border: 1px solid #FF5959;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px gray;
+    color: #FF5959;
+
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.half-width h2 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.half-width img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 55px;
+
+}
+
+/* #about-us-div {
+    background-image: url(../images/frame58.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+} */
+
+.color-text {
+    color: #FF5959;
+}
+
 #subscriber-div {
     margin-top: 5%;
 }
@@ -218,6 +267,7 @@ footer {
     padding: 0;
     gap: 24px;
     padding: 5% 10%;
+    margin-top: 10%;
 
 }
 
