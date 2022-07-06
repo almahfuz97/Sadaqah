@@ -137,6 +137,8 @@ input[type=number] {
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+    justify-content: space-evenly;
+
 }
 
 .plan-div {
@@ -165,37 +167,17 @@ input[type=number] {
     margin-bottom: 5%;
 }
 
-#shelter-plan {
+#flood-plan {
     background: rgba(255, 89, 89, 0.1);
 }
 
-#education-plan {
-    background: #FFF4D6
+#orphan-plan {
+    background: #FFF4D6;
 }
 
-footer {
-    background: #0B0D17;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    gap: 24px;
-    padding: 5% 10%;
-
+#subscriber-div {
+    margin-top: 5%;
 }
-
-footer h3 {
-    color: #FF5959;
-    font-size: 40px;
-}
-
-
-footer p {
-    color: white;
-}
-
-#subscriber-div {}
 
 form {
     margin: 3% 20%;
@@ -203,9 +185,6 @@ form {
     background: #FFF4D6;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 input[type=email] {
@@ -228,4 +207,27 @@ input[type=submit] {
     background: #FF5959;
     color: #FAFAFA;
 
+}
+
+footer {
+    background: #0B0D17;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 24px;
+    padding: 5% 10%;
+
+}
+
+footer h3 {
+    color: #FF5959;
+    font-size: 30px;
+}
+
+
+footer p {
+    color: white;
+    opacity: 60%;
 }
