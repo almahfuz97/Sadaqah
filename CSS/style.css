@@ -10,7 +10,7 @@ p {
 }
 
 .header-section {
-    background-image: url(../images/donation.jpg);
+    background-image: url(./images/donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
